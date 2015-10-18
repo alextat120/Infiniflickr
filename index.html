@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Infiniflickr - your very own wall of pics</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   <style>
+   input{
+   width: 60%;
+   height: 60%;
+   text-align: center;
+   color: purple;
+   }
+
+   img{
+   width: 45%
+   float: top;
+   }
+   </style>
+   </head>
+<body>
+
+
+
+	<h1><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Infiniflickr <small> Create a wall of pics as big as you want!</small></h1>
+	<blockquote>
+     <p>I have no idea what I'm doing ... I was making a Meerkat API app lol</p>
+     <small><cite>Alex</cite></small>
+</blockquote>
+	<input type = "text" placeholder="Enter a tag" name = "tagfield"/>
+	
+	
+	<button type = "Search" id = search class = "btn btn-primary">search tags</button>
+	<button type = "Delete" id = delete class = "btn btn-danger">delete all pics</button>
+	
+	<hr width = "100%">
+	<p class = "bg-info">Your pics are below! </p>
+	
+	<script type="text/javascript" src= main.js></script>	<!-- The script for getting stuff -->
+
+	<div id ="pics"></div> <!-- Makes a div with id pics -->
+
+</body>
+</html>
